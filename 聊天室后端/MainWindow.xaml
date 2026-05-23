@@ -67,8 +67,8 @@
                                 <TextBlock Text="全场禁言" FontSize="14" FontWeight="Bold" Foreground="#1A1C1E"/>
                                 <TextBlock Text="非公告信息不得发送" FontSize="11" Foreground="#73777F" Margin="0,2,0,0"/>
                             </StackPanel>
-                            <Border x:Name="BorderToggleMute" DockPanel.Dock="Right" CornerRadius="12" Padding="4" Background="Transparent" BorderBrush="#D5D8DF" BorderThickness="1" Width="70">
-                                <CheckBox x:Name="ToggleMute" Style="{StaticResource {x:Static ToolBar.CheckBoxStyleKey}}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="44" Height="24" Checked="ToggleMute_Checked" Unchecked="ToggleMute_Unchecked" Background="#FF15FF00"/>
+                            <Border x:Name="BorderToggleMute" DockPanel.Dock="Right" CornerRadius="12" Padding="4" Background="#FF00FF12" BorderBrush="#D5D8DF" BorderThickness="1" Width="70">
+                                <CheckBox x:Name="ToggleMute" Style="{StaticResource {x:Static ToolBar.CheckBoxStyleKey}}" HorizontalAlignment="Right" Width="44" Height="24" Checked="ToggleMute_Checked" Unchecked="ToggleMute_Unchecked" Background="#FF15FF00" Margin="0,0,8,0"/>
                             </Border>
                         </DockPanel>
                     </Border>
@@ -79,7 +79,7 @@
                                 <TextBlock Text="系统开机自启" FontSize="14" FontWeight="Bold" Foreground="#1A1C1E"/>
                                 <TextBlock Text="自启动" FontSize="11" Foreground="#73777F" Margin="0,2,0,0"/>
                             </StackPanel>
-                            <Border x:Name="BorderToggleAutostart" DockPanel.Dock="Right" CornerRadius="12" Padding="4" Background="Transparent" BorderBrush="#D5D8DF" BorderThickness="1" Width="70">
+                            <Border x:Name="BorderToggleAutostart" DockPanel.Dock="Right" CornerRadius="12" Padding="4" Background="#FF1DFF00" BorderBrush="#D5D8DF" BorderThickness="1" Width="70">
                                 <CheckBox x:Name="ToggleAutostart" Style="{StaticResource {x:Static ToolBar.CheckBoxStyleKey}}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="44" Height="24" Checked="ToggleAutostart_Checked" Unchecked="ToggleAutostart_Unchecked" Background="#FF15FF00"/>
                             </Border>
                         </DockPanel>
